@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/senkuro"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#EBCDA6"
+            android:fontFamily="@font/finger_paint"
+            android:text="senkuro"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/ranobelib"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/senkuro"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#EBCDA6"
+            android:fontFamily="@font/finger_paint"
+            android:text="ranobelib"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/amedia"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/ranobelib"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#EBCDA6"
+            android:fontFamily="@font/finger_paint"
+            android:text="amedia"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnEditor"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/amedia"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#EBCDA6"
+            android:fontFamily="@font/finger_paint"
+            android:text="Редактор"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
